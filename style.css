@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+
+.container{
+    width: 650px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 30px 25px;
+}
+
+.container header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container .content{
+    margin: 35px 0;
+}
+
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area .quote{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.quote-area i{
+    font-size: 15px;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child{
+    margin: 3px 10px 0 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.content .author{
+    display: flex;
+    margin-top: 20px;
+    justify-content: end;
+    font-size: 15px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+    color: #5372F0;
+    height: 47px;
+    width: 47px;
+    border: 1px solid #5372F0;
+    border-radius: 50%;
+}
+
+.features button{
+    background: #5372F0;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.name{
+    font-family: 'Poppins', sans-serif;
+}
